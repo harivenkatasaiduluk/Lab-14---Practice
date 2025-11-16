@@ -13,7 +13,7 @@ ingress:
 mysql:
   image: mysql:8.0
   rootPassword: password
-  database: projectdb
+  database: userdbexam
   service:
     port: 3306
     type: ClusterIP
